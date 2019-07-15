@@ -48,8 +48,7 @@ d3.json("holocaust.json", function(error, graph) {
     .selectAll("g")
     .data(graph.nodes)
     .enter().append("g")
-    .style("opacity", function(d) { return color(d.opacity); });
-
+  
   var circles = node.append("circle")
       .attr("r", d => d.size*5)
       .attr("fill", function(d) { return color(d.survivor); })
