@@ -1,0 +1,39 @@
+{
+  "nodes": [
+    {"id": "Perecin", "size": 7, "survivor": "Patipa"},
+    {"id": "junior college", "size": 4, "survivor": "Patipa"},
+    {"id": "bank", "size": 4, "survivor": "Patipa"},
+    {"id": "temple", "size": 4, "survivor": "Patipa"},
+    {"id": "neighbors", "size": 3, "survivor": "Patipa"},
+    {"id": "street", "size": 4, "survivor": "Patipa"},
+    {"id": "train station", "size": 4, "survivor": "Patipa"},   
+    {"id": "house", "size": 3, "survivor": "Patipa"},    
+    {"id": "dining room", "size": 2, "survivor": "Patipa"},
+    {"id": "bedroom", "size": 2, "survivor": "Patipa"},
+    {"id": "bedroom 2", "size": 2, "survivor": "Patipa"},
+    {"id": "room", "size": 2, "survivor": "Patipa"},
+    {"id": "store", "size": 2, "survivor": "Patipa"},
+    {"id": "bed", "size": 1, "survivor": "Patipa"},
+    {"id": "table", "size": 1, "survivor": "Patipa"},
+    {"id": "windows", "size": 1, "survivor": "Patipa"}
+  ],
+  "links": [
+    {"source": "Perecin", "target": "house", "value": 1},
+    {"source": "Perecin", "target": "temple", "value": 1},
+    {"source": "windows", "target": "house", "value": 1},
+    {"source": "bank", "target": "Perecin", "value": 1},
+    {"source": "junior college", "target": "Perecin", "value": 1},
+    {"source": "neighbors", "target": "Perecin", "value": 1},
+    {"source": "street", "target": "Perecin", "value": 1},
+    {"source": "train station", "target": "Perecin", "value": 1},
+    {"source": "dining room", "target": "house", "value": 1},
+    {"source": "bedroom", "target": "house", "value": 1},
+    {"source": "bedroom 2", "target": "house", "value": 1},
+    {"source": "room", "target": "house", "value": 1},
+    {"source": "store", "target": "house", "value": 1},
+    {"source": "bed", "target": "bedroom", "value": 1},
+    {"source": "windows", "target": "house", "value": 1},
+    {"source": "table", "target": "dining room", "value": 1}
+
+  ]
+}
