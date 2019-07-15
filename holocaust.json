@@ -15,7 +15,16 @@
     {"id": "store", "size": 2, "survivor": "Patipa", "opacity": 1},
     {"id": "bed", "size": 1, "survivor": "Patipa", "opacity": 1},
     {"id": "table", "size": 1, "survivor": "Patipa", "opacity": 1},
-    {"id": "windows", "size": 1, "survivor": "Patipa", "opacity": 1}
+    {"id": "windows", "size": 1, "survivor": "Patipa", "opacity": 1},
+    
+    
+    {"id": "Grybow", "size": 7, "survivor": "Brodman", "opacity": 1},
+    {"id": "Jewish homes", "size": 7, "survivor": "Brodman", "opacity": 0.2},
+    {"id": "army hospital", "size": 7, "survivor": "Brodman", "opacity": 0.2},
+    {"id": "jail", "size": 7, "survivor": "Brodman", "opacity": 0.2},
+    {"id": "park", "size": 7, "survivor": "Brodman", "opacity": 1},
+    {"id": "school", "size": 7, "survivor": "Brodman", "opacity": 0.2}
+   
   ],
   "links": [
     {"source": "Perecin", "target": "house", "value": 1},
@@ -33,7 +42,16 @@
     {"source": "store", "target": "house", "value": 1},
     {"source": "bed", "target": "bedroom", "value": 1},
     {"source": "windows", "target": "house", "value": 1},
-    {"source": "table", "target": "dining room", "value": 1}
+    {"source": "table", "target": "dining room", "value": 1},
+    
+    {"source": "Grybow", "target": "Jewish homes", "value": 1},
+    {"source": "Grybow", "target": "jail", "value": 1},
+    {"source": "Grybow", "target": "park", "value": 1},
+    {"source": "Grybow", "target": "school", "value": 1},
+    {"source": "Grybow", "target": "army hospital", "value": 1}
+    
+    
+    
 
   ]
 }
