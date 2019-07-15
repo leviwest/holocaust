@@ -52,6 +52,7 @@ d3.json("holocaust.json", function(error, graph) {
   var circles = node.append("circle")
       .attr("r", d => d.size*5)
       .attr("fill", color)
+      .style("opacity", 0.5)
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
