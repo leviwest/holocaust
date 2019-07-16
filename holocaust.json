@@ -73,7 +73,7 @@
     {"source": "Ungavard", "target": "hospital", "value": 1},
     {"source": "brick factory", "target": "no bathroom", "value": 1},
     {"source": "Ungavard", "target": "no lavatory", "value": 1},
-    {"source": "Ungavard", "target": "kitchen", "value": 1}
+    {"source": "Ungavard", "target": "kitchen", "value": 1},
     
     
     {"source": "Grybow", "target": "Jewish homes", "value": 1},
