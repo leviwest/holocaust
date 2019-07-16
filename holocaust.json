@@ -19,11 +19,11 @@
     
     
     {"id": "Grybow", "size": 7, "survivor": "Brodman", "opacity": 1},
-    {"id": "Jewish homes", "size": 7, "survivor": "Brodman", "opacity": 0.2},
-    {"id": "army hospital", "size": 7, "survivor": "Brodman", "opacity": 0.2},
-    {"id": "jail", "size": 7, "survivor": "Brodman", "opacity": 0.2},
-    {"id": "park", "size": 7, "survivor": "Brodman", "opacity": 1},
-    {"id": "school", "size": 7, "survivor": "Brodman", "opacity": 0.2}
+    {"id": "Jewish homes", "size": 4, "survivor": "Brodman", "opacity": 0.2},
+    {"id": "army hospital", "size": 4, "survivor": "Brodman", "opacity": 0.2},
+    {"id": "jail", "size": 4, "survivor": "Brodman", "opacity": 0.2},
+    {"id": "park", "size": 4, "survivor": "Brodman", "opacity": 1},
+    {"id": "school", "size": 4, "survivor": "Brodman", "opacity": 0.2}
    
   ],
   "links": [
