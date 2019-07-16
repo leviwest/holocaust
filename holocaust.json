@@ -30,12 +30,30 @@
     {"id": "no bathroom", "size": 2, "survivor": "Patipa", "opacity": 0.2},
     {"id": "no lavatory", "size": 2, "survivor": "Patipa", "opacity": 0.2},
     {"id": "kitchen", "size": 2, "survivor": "Patipa", "opacity": 0.5},
+    
+    
     {"id": "Grybow", "size": 7, "survivor": "Brodman", "opacity": 1},
     {"id": "Jewish homes", "size": 4, "survivor": "Brodman", "opacity": 0.2},
     {"id": "army hospital", "size": 4, "survivor": "Brodman", "opacity": 0.2},
     {"id": "jail", "size": 4, "survivor": "Brodman", "opacity": 0.2},
     {"id": "park", "size": 4, "survivor": "Brodman", "opacity": 1},
-    {"id": "school", "size": 4, "survivor": "Brodman", "opacity": 0.2}
+    
+    {"id": "cemetry", "size": 4, "survivor": "Brodman", "opacity": 1},
+    {"id": "Cheder", "size": 4, "survivor": "Brodman", "opacity": 0.5},
+    {"id": "office", "size": 3, "survivor": "Brodman", "opacity": 0.5},
+    {"id": "window", "size": 1, "survivor": "Brodman", "opacity": 1},
+    {"id": "streets", "size": 4, "survivor": "Brodman", "opacity": 1},
+    {"id": "school", "size": 4, "survivor": "Brodman", "opacity": 0.2},
+    {"id": "big street", "size": 4, "survivor": "Brodman", "opacity": 0.2},
+    {"id": "home", "size": 3, "survivor": "Brodman", "opacity": 1},
+    {"id": "pocket", "size": 1, "survivor": "Brodman", "opacity": 1},
+    {"id": "train station", "size": 4, "survivor": "Brodman", "opacity": 0.5},
+    {"id": "cattle cars", "size": 2, "survivor": "Brodman", "opacity": 0.5},
+    {"id": "railroad cars", "size": 2, "survivor": "Brodman", "opacity": 0.5},
+    {"id": "train", "size": 2, "survivor": "Brodman", "opacity": 1},
+    {"id": "railroad tracks", "size": 2, "survivor": "Brodman", "opacity": 0.5},
+    {"id": "window 2", "size": 1, "survivor": "Brodman", "opacity": 1},
+    {"id": "lumber mills", "size": 4, "survivor": "Brodman", "opacity": 1}
    
   ],
   "links": [
@@ -67,11 +85,27 @@
     {"source": "brick factory", "target": "no bathroom", "value": 1},
     {"source": "Ungavard", "target": "no lavatory", "value": 1},
     {"source": "Ungavard", "target": "kitchen", "value": 1},
+    
     {"source": "Grybow", "target": "Jewish homes", "value": 1},
     {"source": "Grybow", "target": "jail", "value": 1},
     {"source": "Grybow", "target": "park", "value": 1},
     {"source": "Grybow", "target": "school", "value": 1},
-    {"source": "Grybow", "target": "army hospital", "value": 1}
+    {"source": "Grybow", "target": "army hospital", "value": 1},
     
+    {"source": "Grybow", "target": "cemetry", "value": 1},
+    {"source": "Grybow", "target": "Cheder", "value": 1},
+    {"source": "Grybow", "target": "office", "value": 1},
+    {"source": "office", "target": "window", "value": 1},
+    {"source": "Grybow", "target": "streets", "value": 1},
+    {"source": "Grybow", "target": "school", "value": 1},
+    {"source": "Grybow", "target": "big street", "value": 1},
+    {"source": "Grybow", "target": "home", "value": 1},
+    {"source": "Grybow", "target": "pocket", "value": 1},
+    {"source": "Grybow", "target": "train station", "value": 1},
+    {"source": "train station", "target": "cattle cars", "value": 1},
+    {"source": "train station", "target": "railroad cars", "value": 1},
+    {"source": "train station", "target": "train", "value": 1},
+    {"source": "train station", "target": "railroad tracks", "value": 1}
+
   ]
 }
