@@ -20,7 +20,6 @@
     {"id": "some place", "size": 4, "survivor": "Patipa", "opacity": 0.2},
     {"id": "labor camp", "size": 5, "survivor": "Patipa", "opacity": 1},
     {"id": "small little town", "size": 5, "survivor": "Patipa", "opacity": 0.2},
-    {"id": "train station", "size": 4, "survivor": "Patipa", "opacity": 1},
     {"id": "cattle barns", "size": 2, "survivor": "Patipa", "opacity": 1},
     {"id": "train", "size": 2, "survivor": "Patipa", "opacity": 1},
     {"id": "backyard", "size": 2, "survivor": "Patipa", "opacity": 0.2},
