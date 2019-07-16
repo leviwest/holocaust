@@ -21,14 +21,14 @@
     {"id": "labor camp", "size": 5, "survivor": "Patipa", "opacity": 1},
     {"id": "small little town", "size": 5, "survivor": "Patipa", "opacity": 0.2},
     {"id": "train station", "size": 4, "survivor": "Patipa", "opacity": 1},
-    {"id": "cattle barns", "size": 5, "survivor": "Patipa", "opacity": 1},
-    {"id": "train", "size": 5, "survivor": "Patipa", "opacity": 1},
-    {"id": "backyard", "size": 5, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "cattle barns", "size": 2, "survivor": "Patipa", "opacity": 1},
+    {"id": "train", "size": 2, "survivor": "Patipa", "opacity": 1},
+    {"id": "backyard", "size": 2, "survivor": "Patipa", "opacity": 0.2},
     
     
     {"id": "Ungavard", "size": 7, "survivor": "Patipa", "opacity": 0.2},
     {"id": "the fields", "size": 6, "survivor": "Patipa", "opacity": 0.2},
-    {"id": "brick factory", "size": 5, "survivor": "Patipa", "opacity": 1},
+    {"id": "brick factory", "size": 4, "survivor": "Patipa", "opacity": 1},
     {"id": "hospital", "size": 4, "survivor": "Patipa", "opacity": 0.5},
     {"id": "no bathroom", "size": 2, "survivor": "Patipa", "opacity": 0.2},
     {"id": "no lavatory", "size": 2, "survivor": "Patipa", "opacity": 0.2},
