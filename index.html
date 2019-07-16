@@ -53,9 +53,9 @@ d3.json("holocaust.json", function(error, graph) {
 //      .attr("fill", function(d) { return color(d.survivor); })
   
   .attr("fill", function(d) { if (d.survivor == "Patipa") {
-      return 'red';
-    } else {
-      return 'green';
+      return "#F5F5DC";
+    } else if (d.survivor == "Brodman") {
+      return "77dd77C";
     }
   })
   
