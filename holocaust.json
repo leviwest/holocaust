@@ -47,12 +47,12 @@
     {"id": "big street", "size": 4, "survivor": "Brodman", "opacity": 0.2},
     {"id": "home", "size": 3, "survivor": "Brodman", "opacity": 1},
     {"id": "pocket", "size": 1, "survivor": "Brodman", "opacity": 1},
-    {"id": "train station", "size": 4, "survivor": "Brodman", "opacity": 0.5},
+    {"id": "train station 2", "size": 4, "survivor": "Brodman", "opacity": 0.5},
     {"id": "cattle cars", "size": 2, "survivor": "Brodman", "opacity": 0.5},
     {"id": "railroad cars", "size": 2, "survivor": "Brodman", "opacity": 0.5},
     {"id": "train", "size": 2, "survivor": "Brodman", "opacity": 1},
     {"id": "railroad tracks", "size": 2, "survivor": "Brodman", "opacity": 0.5},
-    {"id": "window 2", "size": 1, "survivor": "Brodman", "opacity": 1},
+    {"id": "window", "size": 1, "survivor": "Brodman", "opacity": 1},
     {"id": "lumber mills", "size": 4, "survivor": "Brodman", "opacity": 1}
    
   ],
@@ -77,7 +77,6 @@
     {"source": "room", "target": "house", "value": 1},
     {"source": "store", "target": "house", "value": 1},
     {"source": "bed", "target": "bedroom", "value": 1},
-    {"source": "windows", "target": "house", "value": 1},
     {"source": "table", "target": "dining room", "value": 1},
     {"source": "Ungavard", "target": "the fields", "value": 1},
     {"source": "Ungavard", "target": "brick factory", "value": 1},
@@ -101,11 +100,11 @@
     {"source": "Grybow", "target": "big street", "value": 1},
     {"source": "Grybow", "target": "home", "value": 1},
     {"source": "Grybow", "target": "pocket", "value": 1},
-    {"source": "Grybow", "target": "train station", "value": 1},
-    {"source": "train station", "target": "cattle cars", "value": 1},
-    {"source": "train station", "target": "railroad cars", "value": 1},
-    {"source": "train station", "target": "train", "value": 1},
-    {"source": "train station", "target": "railroad tracks", "value": 1}
+    {"source": "Grybow", "target": "train station 2", "value": 1},
+    {"source": "train station 2", "target": "cattle cars", "value": 1},
+    {"source": "train station 2", "target": "railroad cars", "value": 1},
+    {"source": "train station 2", "target": "train", "value": 1},
+    {"source": "train station 2", "target": "railroad tracks", "value": 1}
 
   ]
 }
