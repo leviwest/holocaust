@@ -30,7 +30,7 @@
     {"id": "hospital", "size": 4, "survivor": "Patipa", "opacity": 0.5},
     {"id": "no bathroom", "size": 2, "survivor": "Patipa", "opacity": 0.2},
     {"id": "no lavatory", "size": 2, "survivor": "Patipa", "opacity": 0.2},
-    {"id": "no kitchen", "size": 2, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "kitchen", "size": 2, "survivor": "Patipa", "opacity": 0.5},
     {"id": "Grybow", "size": 7, "survivor": "Brodman", "opacity": 1},
     {"id": "Jewish homes", "size": 4, "survivor": "Brodman", "opacity": 0.2},
     {"id": "army hospital", "size": 4, "survivor": "Brodman", "opacity": 0.2},
