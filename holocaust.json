@@ -26,6 +26,15 @@
     {"id": "backyard", "size": 5, "survivor": "Patipa", "opacity": 0.2},
     
     
+    {"id": "Ungavard", "size": 7, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "the fields", "size": 6, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "brick factory", "size": 5, "survivor": "Patipa", "opacity": 1},
+    {"id": "hospital", "size": 4, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "no bathroom", "size": 2, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "no lavatory", "size": 2, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "no kitchen", "size": 2, "survivor": "Patipa", "opacity": 0.5},
+    
+    
     {"id": "Grybow", "size": 7, "survivor": "Brodman", "opacity": 1},
     {"id": "Jewish homes", "size": 4, "survivor": "Brodman", "opacity": 0.2},
     {"id": "army hospital", "size": 4, "survivor": "Brodman", "opacity": 0.2},
@@ -57,6 +66,15 @@
     {"source": "bed", "target": "bedroom", "value": 1},
     {"source": "windows", "target": "house", "value": 1},
     {"source": "table", "target": "dining room", "value": 1},
+    
+    
+    {"source": "Ungavard", "target": "the fields", "value": 1},
+    {"source": "Ungavard", "target": "brick factory", "value": 1},
+    {"source": "Ungavard", "target": "hospital", "value": 1},
+    {"source": "brick factory", "target": "no bathroom", "value": 1},
+    {"source": "Ungavard", "target": "no lavatory", "value": 1},
+    {"source": "Ungavard", "target": "kitchen", "value": 1}
+    
     
     {"source": "Grybow", "target": "Jewish homes", "value": 1},
     {"source": "Grybow", "target": "jail", "value": 1},
