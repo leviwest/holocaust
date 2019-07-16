@@ -52,13 +52,22 @@ d3.json("holocaust.json", function(error, graph) {
   
   var circles = node.append("circle")
       .attr("r", d => d.size*3)
-      .attr("fill", function(d) { return color(d.survivor); })
+//      .attr("fill", function(d) { return color(d.survivor); })
+  
+  .attr("fill", function(d) { if (d.survivor = "Patipa") {
+      return 'red';
+    } else {
+      return 'green';
+    }
+  })
+  
       .attr("opacity", d => d.opacity)
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended));
-
+  
+  
   var lables = node.append("text")
       .text(function(d) {
         return d.id;
