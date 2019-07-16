@@ -49,9 +49,7 @@ d3.json("holocaust.json", function(error, graph) {
     .enter().append("g")
   
   var circles = node.append("circle")
-      .attr("r", d => d.size*3)
-//      .attr("fill", function(d) { return color(d.survivor); })
-  
+      .attr("r", d => d.size*3)  
   .attr("fill", function(d) { if (d.survivor == "Patipa") {
       return "#988330";
     } else if (d.survivor == "Brodman") {
@@ -60,13 +58,11 @@ d3.json("holocaust.json", function(error, graph) {
       return "red";
     }
   })
-  
       .attr("opacity", d => d.opacity)
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended));
-  
   
   var lables = node.append("text")
       .text(function(d) {
@@ -99,7 +95,6 @@ d3.json("holocaust.json", function(error, graph) {
   }
 });
 
-
 function dragstarted(d) {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
   d.fx = d.x;
@@ -121,5 +116,4 @@ function distance() {
     return 30;
 }
 
-  
 </script>
