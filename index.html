@@ -15,8 +15,6 @@
 text {
   font-family: sans-serif;
   font-size: 8px;
-  background-color: #000000;
-  color: #FFFFFF;
 }
 
 </style>
@@ -78,8 +76,9 @@ d3.json("holocaust.json", function(error, graph) {
         return d.id;
       })
       .attr('x', 6)
-      .attr('y', 3);
-
+      .attr('y', 3)
+      .attr("fill", "#FFFFFF");
+  
   node.append("title")
       .text(function(d) { return d.id; });
 
