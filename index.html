@@ -19,14 +19,17 @@ text {
 
   
 </style>
-<svg width=100% height=100%></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
+
+  var w = window.innerWidth;
+  var h = window.innerHeight;
   
+    
 var svg = d3.select("svg"),
-  width = +svg.attr("width"),
-  height = +svg.attr("height");
+  width = +svg.attr(w),
+  height = +svg.attr(h);
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
