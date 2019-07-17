@@ -148,4 +148,10 @@ function distance() {
     return 30;
 }
 
+              // Draw for the first time to initialize.
+  redraw();
+
+      // Redraw based on the new size whenever the browser window is resized.
+  window.addEventListener("resize", redraw);
+        
 </script>
