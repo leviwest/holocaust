@@ -35,6 +35,7 @@ text {
 
 <script>
 
+
   var chartDiv = document.getElementById("chart");
   var svg = d3.select(chartDiv).append("svg");
 
@@ -56,8 +57,8 @@ var simulation = d3.forceSimulation()
     .force("charge", d3.forceManyBody().strength(-40))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force("collide",d3.forceCollide().radius(d => d.size * 5))
-    .force("x", d3.forceX(width / 2).strength(0.003*2))
-    .force("y", d3.forceY(height / 2).strength(0.013*2.5));
+    .force("x", d3.forceX(width / 2).strength(0.003*1.8))
+    .force("y", d3.forceY(height / 2).strength(0.013*2.7));
 
 svg.append("rect")
     .attr("width", "100%")
@@ -67,14 +68,17 @@ svg.append("rect")
 d3.json("holocaust.json", function(error, graph) {
   if (error) throw error;
 
-  var link = svg.append("g")
+var g = svg.append("g")
+    .attr("class", "everything");
+
+  var link = g.append("g")
       .attr("class", "links")
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
       .attr("stroke-width", function(d) { return (d.value); });
 
-  var node = svg.append("g")
+  var node = g.append("g")
       .attr("class", "nodes")
     .selectAll("g")
     .data(graph.nodes)
@@ -114,6 +118,18 @@ d3.json("holocaust.json", function(error, graph) {
 
   simulation.force("link")
       .links(graph.links);
+
+
+
+//add zoom capabilities 
+var zoom_handler = d3.zoom()
+    .on("zoom", zoom_actions);
+ 
+zoom_handler(svg);     
+ 
+function zoom_actions(){
+    g.attr("transform", d3.event.transform)
+}
 
   function ticked() {
     link
