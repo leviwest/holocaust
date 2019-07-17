@@ -19,26 +19,14 @@ text {
 
   
 </style>
+<svg width="1639" height="800"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-var w = window,
-    d = document,
-    e = d.documentElement,
-    g = d.getElementsByTagName('body')[0],
-    x = w.innerWidth || e.clientWidth || g.clientWidth,
-    y = w.innerHeight|| e.clientHeight|| g.clientHeight;
   
-var svg = d3.select("body").append("svg"),
-        width = +svg.attr("width"),
-    height = +svg.attr("height")
-        .attr("width", x)
-        .attr("height", y)
-        .append("g")
-  
-//var svg = d3.select("svg"),
-//  width = +svg.attr("width"),
-//  height = +svg.attr("height");
+var svg = d3.select("svg"),
+  width = +svg.attr("width"),
+  height = +svg.attr("height");
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
