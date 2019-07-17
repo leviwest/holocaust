@@ -32,11 +32,11 @@ var w = window,
 var svg = d3.select("body").append("svg")
         .attr("width", x)
         .attr("height", y)
-        .append("g");
+        .append("g")
   
 //var svg = d3.select("svg"),
-  //  width = +svg.attr("width"),
-  //  height = +svg.attr("height");
+  width = +svg.attr("width"),
+  height = +svg.attr("height");
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
