@@ -29,14 +29,16 @@ var w = window,
     x = w.innerWidth || e.clientWidth || g.clientWidth,
     y = w.innerHeight|| e.clientHeight|| g.clientHeight;
   
-var svg = d3.select("body").append("svg")
+var svg = d3.select("body").append("svg"),
+        width = +svg.attr("width"),
+    height = +svg.attr("height")
         .attr("width", x)
         .attr("height", y)
         .append("g")
   
 //var svg = d3.select("svg"),
-  width = +svg.attr("width"),
-  height = +svg.attr("height");
+//  width = +svg.attr("width"),
+//  height = +svg.attr("height");
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
