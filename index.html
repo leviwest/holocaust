@@ -42,7 +42,7 @@ var simulation = d3.forceSimulation()
 svg.append("rect")
     .attr("width", "100%")
     .attr("height", "100%")
-    .attr("fill", "pink");
+    .attr("fill", "black");
   
 d3.json("holocaust.json", function(error, graph) {
   if (error) throw error;
@@ -82,7 +82,7 @@ d3.json("holocaust.json", function(error, graph) {
       })
       .attr('x', 6)
       .attr('y', 3)
-      .attr("fill", "#000000");
+      .attr("fill", "#FFFFFF");
   
   node.append("title")
       .text(function(d) { return d.id; });
