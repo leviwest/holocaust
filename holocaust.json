@@ -36,6 +36,8 @@
     {"id": "the river", "size": 4, "survivor": "Patipa", "opacity": 0.4},
     {"id": "cattle cars 2", "size": 2, "survivor": "Patipa", "opacity": 0.4},
     {"id": "Auschwitz", "size": 7, "survivor": "Patipa", "opacity": 1},
+    {"id": "the farmers", "size": 4, "survivor": "Patipa", "opacity": 0.5},
+
     
 
     {"id": "Grybow", "size": 7, "survivor": "Brodman", "opacity": 1},
@@ -115,6 +117,9 @@
     {"source": "brick factory", "target": "no bathroom", "value": 1},
     {"source": "brick factory", "target": "no lavatory", "value": 1},
     {"source": "brick factory", "target": "kitchen", "value": 1},
+
+    {"source": "the farmers", "target": "Perecin", "value": 2},
+
     
 
     {"source": "Grybow", "target": "Jewish homes", "value": 1},
