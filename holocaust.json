@@ -32,11 +32,53 @@
     {"id": "no bathroom", "size": 2, "survivor": "Patipa", "opacity": 0.4},
     {"id": "no lavatory", "size": 2, "survivor": "Patipa", "opacity": 0.4},
     {"id": "kitchen", "size": 2, "survivor": "Patipa", "opacity": 0.7},
-
     {"id": "the river", "size": 4, "survivor": "Patipa", "opacity": 0.4},
     {"id": "cattle cars 2", "size": 2, "survivor": "Patipa", "opacity": 0.4},
-    {"id": "Auschwitz", "size": 7, "survivor": "Patipa", "opacity": 1},
     {"id": "the farmers", "size": 4, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "Auschwitz", "size": 7, "survivor": "Patipa", "opacity": 1},
+    {"id": "crematorium", "size": 4, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "kitchens in Auschwitz", "size": 2, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "doors", "size": 1, "survivor": "Patipa", "opacity": 1},
+    {"id": "windows in Auschwitz", "size": 1, "survivor": "Patipa", "opacity": 1},
+    {"id": "fires in Auschwitz", "size": 1, "survivor": "Patipa", "opacity": 1},
+    {"id": "shower", "size": 2, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "gypsy camp", "size": 5, "survivor": "Patipa", "opacity": 1},
+    {"id": "between the barracks", "size": 1, "survivor": "Patipa", "opacity": 1},
+    {"id": "C camp", "size": 5, "survivor": "Patipa", "opacity": 1},
+    {"id": "barrack 1 in C camp", "size": 3, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "barrack 2 in C camp", "size": 3, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "no space", "size": 2, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "B", "size": 5, "survivor": "Patipa", "opacity": 1},
+    {"id": "five", "size": 1, "survivor": "Patipa", "opacity": 1},
+    {"id": "bunk", "size": 1, "survivor": "Patipa", "opacity": 1},
+    {"id": "transport", "size": 2, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "fields outside of Auschwitz", "size": 3, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "here in fields 1", "size": 2, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "here in fields 2", "size": 2, "survivor": "Patipa", "opacity": 0.5},
+
+
+    {"id": "transport 2", "size": 2, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "sugar factory", "size": 4, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "Salzwedel", "size": 7, "survivor": "Patipa", "opacity": 1},
+    {"id": "Bergen Belsen", "size": 7, "survivor": "Patipa", "opacity": 1},
+    {"id": "camp in Bergen Belsen", "size": 5, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "barrack in Bergen Belsen", "size": 3, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "tents", "size": 2, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "storage space", "size": 2, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "munition factory", "size": 4, "survivor": "Patipa", "opacity": 1},
+    {"id": "camp in Salzwedel", "size": 5, "survivor": "Patipa", "opacity": 1},
+    {"id": "kitchen in camp", "size": 2, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "smaller barracks", "size": 3, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "room in camp in Salzwedel", "size": 2, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "straw mattress", "size": 1, "survivor": "Patipa", "opacity": 1},
+    {"id": "floor", "size": 1, "survivor": "Patipa", "opacity": 1},
+    {"id": "barn", "size": 3, "survivor": "Patipa", "opacity": 0.2},
+    {"id": "ditch", "size": 1, "survivor": "Patipa", "opacity": 1},
+    {"id": "washroom", "size": 2, "survivor": "Patipa", "opacity": 0.5},
+    {"id": "wagons", "size": 2, "survivor": "Patipa", "opacity": 1},
+
+
+
 
     
 
@@ -60,8 +102,6 @@
     {"id": "train 2", "size": 2, "survivor": "Brodman", "opacity": 1},
     {"id": "railroad tracks", "size": 2, "survivor": "Brodman", "opacity": 0.7},
     {"id": "lumber mills", "size": 4, "survivor": "Brodman", "opacity": 1},
-
-
     {"id": "Nowy-Sacz", "size": 7, "survivor": "Brodman", "opacity": 1},
     {"id": "Jewish section", "size": 4, "survivor": "Brodman", "opacity": 0.4},
     {"id": "some houses", "size": 4, "survivor": "Brodman", "opacity": 0.4},
@@ -117,10 +157,49 @@
     {"source": "brick factory", "target": "no bathroom", "value": 1},
     {"source": "brick factory", "target": "no lavatory", "value": 1},
     {"source": "brick factory", "target": "kitchen", "value": 1},
-
     {"source": "the farmers", "target": "Perecin", "value": 2},
+    {"source": "crematorium", "target": "Auschwitz", "value": 1},
+    {"source": "kitchens in Auschwitz", "target": "Auschwitz", "value": 1},
+    {"source": "doors", "target": "Auschwitz", "value": 1},
+    {"source": "windows in Auschwitz", "target": "Auschwitz", "value": 1},
+    {"source": "fires in Auschwitz", "target": "Auschwitz", "value": 1},
+    {"source": "shower", "target": "Auschwitz", "value": 1},
+    {"source": "C camp", "target": "Auschwitz", "value": 1},
+    {"source": "gypsy camp", "target": "Auschwitz", "value": 1},
+    {"source": "between the barracks", "target": "gypsy camp", "value": 1},
+    {"source": "barrack 1 in C camp", "target": "C camp", "value": 1},
+    {"source": "barrack 2 in C camp", "target": "C camp", "value": 1},
+    {"source": "no space", "target": "barrack 1 in C camp", "value": 1},
+    {"source": "B", "target": "Auschwitz", "value": 1},
+    {"source": "five", "target": "B", "value": 1},
+    {"source": "bunk", "target": "B", "value": 1},
+    {"source": "transport", "target": "Auschwitz", "value": 3},
+    {"source": "fields outside of Auschwitz", "target": "Auschwitz", "value": 3},
+    {"source": "here in fields 1", "target": "fields outside of Auschwitz", "value": 1},
+    {"source": "here in fields 2", "target": "fields outside of Auschwitz", "value": 1},
 
-    
+
+
+    {"source": "sugar factory", "target": "Bergen Belsen", "value": 3},
+    {"source": "munition factory", "target": "Salzwedel", "value": 2},
+    {"source": "camp in Bergen Belsen", "target": "Bergen Belsen", "value": 1},
+    {"source": "tents", "target": "Bergen Belsen", "value": 1},
+    {"source": "storage space", "target": "Bergen Belsen", "value": 1},
+    {"source": "barrack in Bergen Belsen", "target": "camp in Bergen Belsen", "value": 3},
+    {"source": "camp in Salzwedel", "target": "Salzwedel", "value": 1},
+    {"source": "kitchen in camp", "target": "camp in Salzwedel", "value": 1},
+    {"source": "barn", "target": "camp in Salzwedel", "value": 1},
+    {"source": "smaller barracks", "target": "camp in Salzwedel", "value": 1},
+    {"source": "room in camp in Salzwedel", "target": "smaller barracks", "value": 1},
+    {"source": "straw mattress", "target": "room", "value": 1},
+    {"source": "floor", "target": "room", "value": 1},
+    {"source": "ditch", "target": "camp in Salzwedel", "value": 1},
+    {"source": "washroom", "target": "camp in Salzwedel", "value": 1},
+    {"source": "wagons", "target": "camp in Salzwedel", "value": 3},
+
+
+
+
 
     {"source": "Grybow", "target": "Jewish homes", "value": 1},
     {"source": "Grybow", "target": "jail", "value": 1},
@@ -141,14 +220,10 @@
     {"source": "train station 2", "target": "railroad cars", "value": 1},
     {"source": "train station 2", "target": "train 2", "value": 1},
     {"source": "train station 2", "target": "railroad tracks", "value": 1},
-
-
-
     {"source": "Nowy-Sacz", "target": "Nowy-Sacz ghetto", "value": 1},
     {"source": "Nowy-Sacz ghetto", "target": "Jewish section", "value": 1},
     {"source": "Nowy-Sacz ghetto", "target": "some houses", "value": 1},
     {"source": "Nowy-Sacz ghetto", "target": "poor neighborhoods", "value": 1},
-
     {"source": "road", "target": "grave", "value": 1},
     {"source": "Tarnow", "target": "ghetto 1", "value": 1},
     {"source": "Tarnow", "target": "ghetto 2", "value": 1},
